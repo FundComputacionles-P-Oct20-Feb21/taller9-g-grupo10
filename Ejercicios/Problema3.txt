@@ -1,0 +1,22 @@
+1. Inicio
+//Declaracion de variables
+2. notas(3)(4), d[0-n])
+3. notas <-- {{9.0, 10.0, 7.0, 8.0}, {10.0, 5.0, 7.0, 9.0}, {7.0, 9.4, 10.0, 9.0}}
+4. estudiantes (3), x(200)[{a-z},{A-Z}, {BS}] 
+5. estudiantes <-- {Jerry Ponce, Gabriela Lews, David Bell}
+6. suma, d[0-n]
+7. i, i[0-n]
+8.promedio (3),d[0-n]
+// Proceso
+9. Para(fila <-- 0, fila < 3, 1) haga
+10.    suma <-- 0
+11.    Para(columna <-- 0, columna < 4, 1) haga
+12.       suma <-- suma + notas [fila][columna]
+13.    Fin Para
+14.    promedio[fila] <-- suma / 4
+15.Fin Para
+// Salida
+16.Para (i <-- 0, i < 3, 1) haga
+17.   Escribir "Estudiante: " + estudiantes[i] + " tiene un promedio de: " + promedio[i]
+18.Fin Para
+19.Fin

@@ -1,0 +1,29 @@
+1. Inicio
+// Declaracion de Variables
+2. vendedores (2), x(200)[{a-z},{A-Z}, {BS}] 
+3. vendedores <-- {Jessica Cole, Robert Wallace}
+4. ventas(2)(5), i[0-n]
+5. dia, i[0-n]
+6. ventasDia, d[0-n]
+7. fila, i[0-n]
+8. columna, i[0-n]
+9. suma, d[0-n]
+10.suma <-- 0
+11.dia <-- 1
+// Proceso
+12. Para (fila <-- 0, fila < 2, 1) haga
+13.	Escribir "Ventas del vendedor " + vendedores[fila]
+14.     Para(columna <-- 0, columna < 5, 1) haga
+15.         Escribir "Ingrese el dinero ganado en ventas del dia: " + dia
+16.         Leer ventasDia
+17.         ventas [fila][columna] <-- valor
+18.         suma <-- suma + ventas [fila][columna]
+19.	    dia <-- dia + 1
+20.     Fin Para
+21. Fin Para
+//Salida
+22. Para (i <-- 0, i < 2, 1) haga
+23.     Escribir "Vendedor(a) " + vendedores[i]
+24. Fin Para
+25. Escribir "Ha realizado un total de: " + suma + " en ventas."
+26. Fin

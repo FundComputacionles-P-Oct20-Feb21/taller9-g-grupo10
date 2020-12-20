@@ -1,0 +1,16 @@
+1. Inicio.
+// Declaracion de variables 
+2. (valores(4)(4) ,[0-n])
+3. fila, i[0-n]
+4. columna, i[0-n]
+5. cadenaFinal, x(200)[{1-1000},{BS}]
+6. valores <-- {{20, 30, 40, 50}, {2, 3, 4, 5}, {200, 300, 400, 500}, {10, 11, 12, 14}}
+// Proceso
+7. Para(columna <-- 1, columna < 4,1) haga
+8.     Para(fila <--0, fila < columna , 1) haga
+9.        cadenaFinal <-- cadenaFinal + valores[fila][columna] +"  " 
+10.    Fin Para      
+11. Fin Para
+// Salida
+12. Escribir cadenaFinal 
+13. Fin
